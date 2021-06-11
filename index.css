@@ -1,0 +1,58 @@
+.main {
+  height: 100%;
+  width: 100vw;
+  background-image: url("https://cdn.shopify.com/s/files/1/0173/8204/7844/articles/SN8_2000x.jpg?v=1604621638");
+}
+
+.header {
+  background-color: black;
+  width: 100vw;
+  height: 100px;
+  color: white;
+  top: 0;
+  margin: 0;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.labels {
+  position: absolute;
+  align-items: center;
+  flex-direction: row;
+  display: inline-block;
+  color: white;
+  justify-content: space-between;
+}
+
+.burger {
+  background-color: white;
+  height: 25px;
+  width: 25px;
+  float: right;
+}
+
+li {
+  float: left;
+  list-style: none;
+}
+
+.middle {
+  display: block;
+  margin-top: 500px;
+  padding: 50px;
+}
+
+.button-position {
+  display: flex;
+  flex-direction: column;
+}
+
+.replay {
+  width: 65px;
+}
